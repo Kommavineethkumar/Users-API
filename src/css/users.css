@@ -1,0 +1,117 @@
+#users-holder{
+    margin-top: 10px;
+    text-align: center;
+    margin-left: -25%;
+}
+
+#user{
+    margin-bottom: 20px;
+}
+
+#avatar{
+    border-radius: 50%;
+    height: 10vw;
+}
+
+#name{
+    display: inline;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 35px;
+}
+
+#email{
+    display: inline;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 33px;
+}
+
+#divider{
+    width: 98vw;
+    margin-left: 25vw;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.030);
+    box-shadow: rgb(36, 49, 63) 0px 20px 30px -10px;
+}
+
+@media screen and (max-width: 1100px) {
+    #users-holder{
+        margin-left: -60vw;
+    }
+    #avatar{
+        height: 20vw;
+    }
+
+    #name{
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    #email{
+        margin-top: 70px;
+    }
+    #divider{
+        width: 98vw;
+        margin-left: 60vw;
+        height: 2px;
+        background-color: black;
+    }
+  }
+
+
+  @media screen and (max-width: 800px) {
+    #divider{
+        width: 98vw;
+        margin-left: 59vw;
+        height: 2px;
+        background-color: black;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    #users-holder{
+        margin-left: -60vw;
+    }
+    #avatar{
+        height: 20vw;
+    }
+
+    #name{
+        font-size: 25px;
+        margin-top: 25px;
+    }
+    #email{
+        margin-top: 55px;
+    }
+    #divider{
+        width: 98vw;
+        margin-left: 57vw;
+        height: 2px;
+        background-color: black;
+    }
+  }
+
+
+  @media screen and (max-width: 350px) {
+    #users-holder{
+        margin-left: -60vw;
+    }
+    #avatar{
+        height: 20vw;
+    }
+
+    #name{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    #email{
+        margin-top: 40px;
+        font-size: 7px;
+    }
+    #divider{
+        width: 98vw;
+        margin-left: 60vw;
+        height: 2px;
+        background-color: black;
+    }
+  }

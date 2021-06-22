@@ -1,0 +1,30 @@
+.pageId{
+    height: 5vh;
+    width: 5vh;
+    display: inline-block;
+    background-color: aliceblue;
+    margin-right: 20px;
+    border: solid aliceblue;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#pageId_holder{
+    text-align: center;
+    margin-left: 25vw;
+}
+
+.current{
+    border: solid 0.5px rgba(47, 212, 176, 0.5);
+    box-shadow: rgba(47, 212, 176, 1) 0px 3px 8px;
+}
+
+@media screen and (max-width: 1100px){
+    
+    #pageId_holder{
+        text-align: center;
+        margin-left: 65vw;
+    }
+}
