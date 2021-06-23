@@ -55,7 +55,8 @@
         width: 98vw;
         margin-left: 60vw;
         height: 2px;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.030);
+        box-shadow: rgb(36, 49, 63) 0px 20px 30px -10px;
     }
   }
 
@@ -65,7 +66,8 @@
         width: 98vw;
         margin-left: 59vw;
         height: 2px;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.030);
+        box-shadow: rgb(36, 49, 63) 0px 20px 30px -10px;
     }
   }
   @media screen and (max-width: 600px) {
@@ -87,7 +89,8 @@
         width: 98vw;
         margin-left: 57vw;
         height: 2px;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.030);
+        box-shadow: rgb(36, 49, 63) 0px 20px 30px -10px;
     }
   }
 
@@ -112,6 +115,7 @@
         width: 98vw;
         margin-left: 60vw;
         height: 2px;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.030);
+        box-shadow: rgb(36, 49, 63) 0px 20px 30px -10px;
     }
   }
