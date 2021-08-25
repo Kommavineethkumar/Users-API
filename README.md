@@ -1,5 +1,4 @@
-# Users API App for Excellence Technologies (Question 2)
-
+# Users API App
 
 Steps to initialize the project
 1. Clone the git project
